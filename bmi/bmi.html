@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>BMI Calculator - Arif</title>
+  <title>BMI - Arif</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -13,12 +13,12 @@
     <form id="bmi-form">
       <div class="input-group">
         <label for="height">📏 Height (cm)</label>
-        <input type="number" id="height" placeholder="e.g. 170" required />
+        <input id="height" placeholder="e.g. 170" />
       </div>
 
       <div class="input-group">
         <label for="weight">⚖️ Weight (kg)</label>
-        <input type="number" id="weight" placeholder="e.g. 65" required />
+        <input id="weight" placeholder="e.g. 65" />
       </div>
 
       <button type="submit">🔍 Calculate BMI</button>
@@ -52,5 +52,7 @@
       </table>
     </div>
   </div>
+
+  <script src="bmi.js"></script>
 </body>
 </html>
